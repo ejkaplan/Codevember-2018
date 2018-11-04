@@ -15,3 +15,8 @@ Maybe a little bit literal, but it was fun making a clock where the hour and min
 For the carrot prompt, I decided to make a pseudo-random carrot generator. The body of the carrot is made with a catmull-rom spline that randomizes the length and width of the carrot. (Fortunately, processing has a built in catmull-rom spline. I implemented it in college, and I don't really feel the need to do it again.) The leaves are a tree fractal that slightly randomizes the branching angle and the color of the leaves for each leaf, which gives it a nice texture. Given more time, I'd like to add some shading to the carrot body so that it isn't so flat looking. But I won't do that tonight because I spent all day playing board games, so I didn't even start this until after midnight on the 4th.
 
 ![alt text](https://raw.githubusercontent.com/ejkaplan/Codevember-2018/master/Day3_Carrot/day3_carrot.gif "Carrot")
+
+## Day 4: Sky
+Wasn't particularly inspired by this prompt, so I took the opportunity to play around with perlin noise. By screening perlin noise onto a blue background, I got a nice cloud effect, but the clouds covered the whole screen, so I had to spend some time playing with the function to create the gaps between the clouds. I got close pretty quickly, but then the clouds had really hard edges that looked totally unnatural, so it took another 30-ish minutes to get that smoothed out.
+
+![alt text](https://raw.githubusercontent.com/ejkaplan/Codevember-2018/master/Day4_Sky/day4_sky.gif "Sky")
